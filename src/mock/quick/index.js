@@ -1,0 +1,39 @@
+export default function(url,methd){
+    const Mock=require('mockjs');
+    Mock.mock(url,methd,{
+        qui:[
+            {
+                img:'http://www.cqcbank.com/data/tosend/resource/upload/20180510/1b5f8189-95c4-4fce-9849-374b06fcdfd4.png',
+                title:'存款利率'
+            },
+            {
+                img:'http://www.cqcbank.com/data/tosend/resource/upload/20180510/0eb93744-bde0-43d1-a148-c399542c183b.png',
+                title:'贷款利率'
+            },
+            {
+                img:'http://www.cqcbank.com/data/tosend/resource/upload/20180510/d0602dd3-18f8-4470-91aa-8b15725904cd.png',
+                title:'产品查询'
+            },
+            {
+                img:'http://www.cqcbank.com/data/tosend/resource/upload/20180510/4e86e533-e645-446a-912e-07052afc0ff9.png',
+                title:'网点地图'
+            },
+            {
+                img:'http://www.cqcbank.com/data/tosend/resource/upload/20180510/dd363055-01f0-4e59-abca-c1e211423a45.png',
+                title:'外汇牌价'
+            },
+            {
+                img:'http://www.cqcbank.com/data/tosend/resource/upload/20180510/5ac085b1-5474-4063-9edf-1c0e57c5dd47.png',
+                title:'我要贷款'
+            },
+            {
+                img:'http://www.cqcbank.com/data/tosend/resource/upload/20180510/a586f50a-3706-47a2-9de4-e13dcbd59497.png',
+                title:'电子商城'
+            },
+            {
+                img:'http://www.cqcbank.com/data/tosend/resource/upload/20180510/404eedda-6228-4fab-8126-4e5102b33287.png',
+                title:'理财计算'
+            },
+        ]
+    })
+}

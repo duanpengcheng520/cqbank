@@ -1,0 +1,31 @@
+export default function(url,methd){
+    const Mock=require('mockjs');
+    Mock.mock(url,methd,{
+        invest1:[
+            {
+                title:"长江·进利净值型2019年第16期",
+                percent:"4.45",
+                merit:"业绩比较基准",
+                money:"5",
+                time:"91",
+                rate:"中低风险",
+            },
+            {
+                title:"长江·鑫利2019年第45期",
+                percent:"4.72",
+                merit:"参考年化收益率",
+                money:"5",
+                time:"289",
+                rate:"中低风险",
+            },
+            {
+                title:"长江·鑫利2019年第43期",
+                percent:"4.3",
+                merit:"参考年化收益率",
+                money:"5",
+                time:"55",
+                rate:"中低风险",
+            },
+        ]
+    })
+}
